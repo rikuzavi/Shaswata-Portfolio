@@ -1,0 +1,271 @@
+h1{
+color : white
+}
+.name{
+position : Absolute;
+color : white;
+top : 20px;
+right : 700px;
+font-size : 70px;
+color : #FFC3A1
+}
+.greet{
+position : Absolute;
+color : white;
+top : 160px;
+right : 950px;
+color : #F99B7D;
+font-size: 20px;
+}
+.desc{
+position : Absolute;
+color : white;
+top : 120px;
+right : 900px;
+color : #F99B7D;
+font-size : 25px;
+}
+.skill{
+position : Absolute;
+color : white;
+top : 720px;
+left : 400px;
+color : #F99B7D
+}
+.about{
+position : Absolute;
+color : white;
+top : 300px;
+left : 400px;
+color : #F99B7D
+}
+.edu{
+position : Absolute;
+top : 1030px;
+left : 400px;
+color : #F99B7D
+}
+.projects{
+position : Absolute;
+color : #F99B7D;
+top : 1670px;
+left : 400px
+}
+.achieve{
+position : Absolute;
+color : #F99B7D;
+top : 2440px;
+left : 400px
+}
+.contact{
+position : Absolute;
+color : #F99B7D;
+top : 2750px;
+left : 400px
+}
+.navbar{
+position : Fixed;
+font-size : 20px;
+top : 350px;
+left : 80px;
+color : white;
+}
+body{
+background-color : #3C2317
+}
+img{
+position : Fixed;
+height : 250px;
+left : 50px;
+top : 40px
+}
+.facebook{
+position : Fixed;
+height : 30px;
+top : 650px;
+left : 70px
+}
+.instagram{
+position : Fixed;
+height : 28px;
+top : 650px;
+left : 110px
+}
+.github{
+position : Fixed;
+height : 30px;
+top : 650px;
+left : 145px
+}
+.linkdin{
+  position: fixed;
+  height: 40px;
+  top : 646px;
+  left: 180px;
+}
+.youtube{
+  position: fixed;
+  height: 35px;
+  width: 30px;
+  top : 650px;
+  left: 225px;
+}
+.waving{
+position : Absolute;
+left : 700px;
+top : 255px;
+height : 150px
+}
+.Download_cv{
+  position: absolute;
+  border-color: #E96479;
+  border-radius: 10px;
+  border-width: 5px;
+  height: 35px;
+  top : 230px;
+  left : 400px;
+}
+.view_cv{
+  position: absolute;
+  border-color: #E96479;
+  border-radius: 10px;
+  border-width: 5px;
+  height: 35px;
+  top : 230px;
+  left : 530px;
+}
+
+
+@media (min-width: 380px) and (max-width: 1200px) {
+  /* CSS rules for tablet screens go here */
+  .name {
+    font-size: 35px;
+    top: 30px;
+    right: auto;
+    left: 250px;
+    
+  }
+  .greet {
+    top: 110px;
+    right: auto;
+    left: 251px;
+    font-size: 15px;
+  }
+  .desc {
+    top: 75px;
+    right: auto;
+    left: 250px;
+    font-size: 20px;
+  }
+  
+  .about {
+    top: 280px;
+    right: auto;
+    left: 20px;
+    font-size: 15px;
+    
+  }
+  .skill{
+    top: 770px;
+    right: auto;
+    left: 20px;
+    font-size: 15px;
+  }
+  .edu {
+    top: 1070px;
+    right: auto;
+    left: 20px;
+    font-size: 15px;
+    
+  }
+  .projects {
+    top: 1750px;
+    right: auto;
+    left: 20px;
+    font-size: 15px;
+  }
+  .achieve {
+    top: 2540px;
+    left: 20px;
+    right: auto;
+    font-size: 15px;
+  }
+  .contact {
+    top: 2900px;
+    left: 20px;
+    right: auto;
+    font-size: 15px;
+  }
+  .navbar {
+    display: none;
+  }
+  img {
+    height: 200px;
+    left: 10px;
+    top: 20px;
+    position: relative;
+  }
+  .facebook {
+    height: 25px;
+    top: 150px;
+    left: 250px;
+    position: absolute;
+  }
+  .instagram {
+    height: 25px;
+    top: 150px;
+    left: 285px;
+    position: absolute;
+  }
+  .github {
+    height: 25px;
+    top: 150px;
+    left: 320px;
+    position: absolute;
+  }
+  .linkdin{
+    position: absolute;
+    height: 35px;
+    top : 146px;
+    left: 350px;
+  }
+  .youtube{
+    position: absolute;
+    height: 35px;
+    width: 30px;
+    top : 146px;
+    left: 390px;
+  }
+  .Download_cv{
+    position : absolute;
+    left : 250px;
+    border-color: #E96479;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 35px;
+    top : 200px;
+  }
+  .view_cv{
+    position : absolute;
+    left : 370px;
+    border-color: #E96479;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 35px;
+    top : 200px;
+  }
+  .Download_cv:hover{
+    background-color: #FFC3A1;
+  }
+  .view_cv:hover{
+    background-color: #FFC3A1;
+  }
+  .waving {
+    left : 290px;
+    height : 100px;
+    top : 275px;
+  }
+}
+
+
+

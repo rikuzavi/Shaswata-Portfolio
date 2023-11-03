@@ -54,13 +54,13 @@ left : 400px
 .achieve{
 position : Absolute;
 color : #F99B7D;
-top : 2440px;
+top : 2030px;
 left : 400px
 }
 .contact{
 position : Absolute;
 color : #F99B7D;
-top : 2750px;
+top : 2320px;
 left : 400px
 }
 .navbar{
@@ -185,13 +185,13 @@ height : 150px
     font-size: 15px;
   }
   .achieve {
-    top: 2540px;
+    top: 2140px;
     left: 20px;
     right: auto;
     font-size: 15px;
   }
   .contact {
-    top: 2900px;
+    top: 2500px;
     left: 20px;
     right: auto;
     font-size: 15px;

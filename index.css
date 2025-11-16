@@ -1,0 +1,14 @@
+/* #EFECE3 */
+/* #4A70A9 */
+/* black */
+*{
+    user-select: none;
+    cursor:default;
+}
+.tw{
+    color: white;
+}
+
+.tb{
+    color: #4A70A9;
+}
